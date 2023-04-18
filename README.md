@@ -1,1 +1,2 @@
-# Using_CSS_Variables
+# Using CSS Variables in JavaScript
+

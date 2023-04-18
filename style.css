@@ -1,0 +1,36 @@
+:root {
+    --spacing: 10px;
+    --blur: 1px;
+    --base: #0DD9CB;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #163c4f;
+    color: white;
+    font-family: "helvetica neue", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.JS {
+    color: var(--base);
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+.img {
+    box-sizing: border-box;
+    height: 533px;
+    width: 797px;
+    background-size: cover;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
